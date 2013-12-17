@@ -1,0 +1,45 @@
+#
+# OSX System files
+# --------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+#
+# Vagrant files/folders
+# --------------------
+/httpdocs/
+.vagrant
+vagrant
+
+
+#
+# Magento project
+# --------------------
+magento/*
+!magento/.keep
+!magento/app
+!magento/skin
+magento/app/*
+magento/skin/*
+!magento/app/design
+!magento/skin/frontend
+magento/app/design/*
+magento/skin/frontend/*
+!magento/app/design/frontend
+!magento/skin/frontend
+magento/app/design/frontend/*
+magento/skin/frontend/*
+!magento/app/design/frontend/test-company
+!magento/skin/frontend/test-company
